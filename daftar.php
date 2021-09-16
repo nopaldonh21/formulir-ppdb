@@ -78,7 +78,7 @@
 		<div class="box">
 
 			<div class="box-back-home">
-				<a class="btn-back-home" href="index.php">Back</a>
+				<a class="btn-back-home" href="index.html">Back</a>
 			</div>
 
 			<table border="0" class="form-header">

@@ -36,7 +36,7 @@
 		<div class="box-login">
 
 			<div class="box-back-home">
-				<a class="btn-back-home" href="index.php">Back</a>
+				<a class="btn-back-home" href="index.html">Back</a>
 			</div>
 
 			<h2 class="judul-login">Login Admin</h2>
