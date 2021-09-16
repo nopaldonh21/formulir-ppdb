@@ -1,0 +1,15 @@
+Tugas UH Prod M24
+
+#Informasi:
+Nama program : PPDB WIKRAMA GARUT
+=> address = localhost/ppdb
+=> database = ppdb.sql
+
+#Fitur:
+- Mengisi data formulir ppdb
+- Login Admin (Mengelola data hasil inputan)
+
+#Akun Admin:
+=> usernama = admin
+=> password = admin
+

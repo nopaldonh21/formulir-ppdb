@@ -1,0 +1,40 @@
+# tb_pendaftaran
+===========================================
+1 no_pendaftaran			| char (10) primary key
+2 no_test					| char (10) 
+3 jalur_penerimaan			| enum ('Reguler', 'Beasiswa')
+4 nama_lengkap				| varchar (50)
+5 nama_pangilan				| varchar (50)
+6 jenis_kelamin				| enum ('Laki-laki', 'Perempuan')
+7 tempat_tanggal_lahir		| varchar (50)
+8 agama						| varchar (15)
+9 cita_cita					| varchar (50)
+10 hobi						| varchar (50)
+11 anak_ke					| int (3)
+12 jumlah_saudara			| int (3)
+13 berat_badan				| int (3)
+14 tinggi_badan				| int (3)
+15 gol_darah				| varchar (2)
+16 alamat_rumah				| text
+17 tinggal_dengan				| varchar (30)
+18 nama_ayah					| varchar  (50)
+19 tempat_tanggal_lahir_ayah	| varchar  (50)
+20 pekerjaan_ayah				| varchar (30)
+21 pendidikan_terakhir_ayah		| varchar (30)
+22 kewarganegaraan/agama_ayah	| varchar (30)
+23 no_hp/wa_ayah				| varchar (30)
+24 nama_ibu						| varchar  (50)
+25 tempat_tanggal_lahir_ibu		| varchar  (50)
+26 pekerjaan_ibu				| varchar (30)
+27 pendidikan_terakhir_ibu		| varchar (30)
+28 kewarganegaraan/agama_ibu	| varchar (30)
+29 no_hp/wa_ibu					| varchar (30)
+
+
+
+# tb_admin
+===================================================
+1 id_admin		| int(11) primary key auto increment
+2 nama_admin	| varchar (50)
+3 username		| varchar (50)
+4 password		| varchar (100) 
